@@ -1,0 +1,38 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #152238;
+    color: white;
+}
+
+.heading {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div > ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+div > ul > li {
+    margin: 0 0;
+    padding: 0.3rem;
+    font-size: 14px;
+   
+}
+
+
+
+
+
+
+
