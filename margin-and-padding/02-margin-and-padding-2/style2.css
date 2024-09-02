@@ -1,0 +1,30 @@
+.container {
+    border: 20px solid grey;
+    padding: 20px;
+}
+
+.top {
+    background-color: lightblue;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.middle {
+    background-color: lightblue;
+    margin-bottom: 8px;
+    padding: 16px 8px;
+}
+
+.bottom {
+    background-color: lightblue;
+    text-align: center;
+    padding: 8px;
+}
+
+.but {
+    display: block;
+    padding: 8px 24px;
+    margin: 0 auto;
+}
