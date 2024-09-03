@@ -59,7 +59,7 @@ div > ul > li {
 .greyimg {
     width: 200px;
     height: 100px;
-    position: 
+    position: relative;
 }
 
 
