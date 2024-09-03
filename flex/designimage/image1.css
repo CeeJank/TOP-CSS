@@ -23,17 +23,46 @@ header {
 
 div > ul {
     list-style-type: none;
-    display: flex;
-    
+    display: flex;  
 }
 
 div > ul > li {
     margin: 0 5px;
     padding: 0.3rem;
     font-size: 16px;
-   
 }
 
+.infotag {
+    color: #152238;
+    font-weight: bold;
+}
+
+.section1 {
+    display:flex;
+}
+
+.infotag {
+    display:block;
+}
+
+.container {
+    display: inline-flex;
+}
+
+.block {
+    display: flex;
+}
+
+.bluebox {
+    display: inline-block;
+    border: 5px solid blue;
+    border-radius: 20%;
+}
+
+.blocktext {
+    display: block;
+    font-size: 0.8em;
+}
 
 
 
