@@ -32,12 +32,43 @@ div > ul > li {
     font-size: 16px;
 }
 
+.section1 {
+    display: inline-flex;
+    background-color: #152238;
+}
+
+.leftblock {
+    display: inline-block;
+}
+
+.info {
+    color: white;
+    
+}
+
+.signup1 {
+    background-color: blue;
+}
+
+.rightblock {
+    display: flex;
+    background-color: grey;
+    
+}
+
+.greyimg {
+    width: 200px;
+    height: 100px;
+    position: 
+}
+
+
 .infotag {
     color: #152238;
     font-weight: bold;
 }
 
-.section1 {
+.section2 {
     display:flex;
 }
 
