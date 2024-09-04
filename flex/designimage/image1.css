@@ -43,7 +43,6 @@ div > ul > li {
 
 .leftblock {
     display: inline-block;
-    justify-content: flex-start;
     margin-left: 10%;
     margin-right: 5%;
     width: 35%;
@@ -53,10 +52,14 @@ div > ul > li {
     color: white;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-size: 48px;
+    width: 60%;
 }
 
 .info {
     color: white;
+    font-size: 18px;
+    width: 80%;
 }
 
 .signup1 {
@@ -124,8 +127,31 @@ div > ul > li {
     width: 14rem;
 }
 
+.section3{
+    color: #E5E7eb;
+    display: flex;
+}
 
+.boxcontainer {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
+.quotecontainer {
+    font-size: 36px;
+    color: #1f2937;
+    margin: 0;
+}
 
+.author {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    font-weight: bold;
+    color: #1f2937;
+    left: 70%;
+
+}
 
 
