@@ -1,6 +1,7 @@
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+
 }
 
 header {
@@ -11,7 +12,7 @@ header {
 .heading {
     display: inline-flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
@@ -33,17 +34,30 @@ div > ul > li {
 }
 
 .section1 {
-    display: inline-flex;
+    display: inline-flex; 
     background-color: #152238;
+    align-items: center;
+    text-align: justify;
+    padding-bottom: 10vh;
 }
 
 .leftblock {
     display: inline-block;
+    margin-left: 10%;
+    margin-right: 5%;
+    width: 35%;
+    
+    
+}
+
+.infohead {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .info {
     color: white;
-    
 }
 
 .signup1 {
@@ -51,15 +65,21 @@ div > ul > li {
 }
 
 .rightblock {
-    display: flex;
     background-color: grey;
+    width: 600px;
+    height: 180px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 8%;
+
     
 }
 
 .greyimg {
-    width: 200px;
-    height: 100px;
-    position: relative;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
 }
 
 
