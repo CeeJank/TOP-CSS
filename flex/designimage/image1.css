@@ -128,14 +128,15 @@ div > ul > li {
 }
 
 .section3{
-    color: #E5E7eb;
+    margin-top: 10em;
+    background-color: #e5e7eb;
     display: flex;
 }
 
 .boxcontainer {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .quotecontainer {
@@ -147,8 +148,8 @@ div > ul > li {
 .author {
     display: flex;
     justify-content: flex-end;
-    position: absolute;
     font-weight: bold;
+    background-color: #e5e7eb;
     color: #1f2937;
     left: 70%;
 
