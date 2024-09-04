@@ -43,11 +43,10 @@ div > ul > li {
 
 .leftblock {
     display: inline-block;
+    justify-content: flex-start;
     margin-left: 10%;
     margin-right: 5%;
     width: 35%;
-    
-    
 }
 
 .infohead {
@@ -65,14 +64,13 @@ div > ul > li {
 }
 
 .rightblock {
+    position: relative;
     background-color: grey;
+    display: flex;
+    justify-content: flex-end;
     width: 600px;
     height: 180px;
-    position: relative;
-    margin-top: 20px;
     margin-left: 8%;
-
-    
 }
 
 .greyimg {
