@@ -62,7 +62,7 @@ div > ul > li {
     width: 80%;
 }
 
-.signup1 {
+.signup {
     background-color: blue;
 }
 
@@ -82,7 +82,6 @@ div > ul > li {
     top: 50%;
     width: 100%;
 }
-
 
 .infotag {
     color: #152238;
@@ -111,8 +110,7 @@ div > ul > li {
 .block {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .bluebox {
@@ -151,8 +149,45 @@ div > ul > li {
     font-weight: bold;
     background-color: #e5e7eb;
     color: #1f2937;
-    left: 70%;
+}
+
+.section4 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.adbox {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    color: white;
+}
+
+.adleft {
+    display: inline-block;
+    margin-left: 12em;
+    
 
 }
 
+.adright {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 12em;
+    width: 500px;
+
+}
+.adtitle {
+
+}
+
+.adquote {
+
+}
+
+#signup2 {
+    color: white;
+    background-color: blue;
+}
 
