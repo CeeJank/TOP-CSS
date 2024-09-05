@@ -159,6 +159,7 @@ div > ul > li {
 
 .section4 {
     width: 80%;
+    margin-top: 10em;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -203,4 +204,19 @@ div > ul > li {
 #signup2 {
     border: 2px solid white;
 }
+
+footer{
+    margin-top: 10em;
+    background-color: #1f2937;
+    height: 5em;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
 
