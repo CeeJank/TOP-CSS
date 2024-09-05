@@ -63,7 +63,12 @@ div > ul > li {
 }
 
 .signup {
-    background-color: blue;
+    color: white;
+    background-color: #3882f6;
+    width: 10em;
+    height: 3em;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 .rightblock {
@@ -71,12 +76,13 @@ div > ul > li {
     background-color: grey;
     display: flex;
     justify-content: flex-end;
-    width: 600px;
-    height: 180px;
-    margin-left: 8%;
+    width: 800px;
+    height: 300px;
+    margin-right: 10%;
 }
 
 .greyimg {
+    color: white;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -160,15 +166,17 @@ div > ul > li {
 .adbox {
     display: flex;
     justify-content: space-between;
-    background-color: blue;
+    background-color: #3882f6;
     color: white;
+    border-radius: 5px;
+    margin-top: 10em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .adleft {
     display: inline-block;
     margin-left: 12em;
-    
-
 }
 
 .adright {
@@ -176,18 +184,23 @@ div > ul > li {
     justify-content: flex-end;
     margin-right: 12em;
     width: 500px;
-
+    align-items: center;
 }
 .adtitle {
-
+    margin-top: 2em;
+    margin-bottom: 0;
 }
 
 .adquote {
+    margin-top: 0;
+    margin-bottom: 2em;
+}
 
+#signup1 {
+    border-color: #3882f6;
 }
 
 #signup2 {
-    color: white;
-    background-color: blue;
+    border: 2px solid white;
 }
 
